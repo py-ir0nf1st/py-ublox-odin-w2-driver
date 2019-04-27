@@ -10,8 +10,8 @@ client-odin-w2.py: A stupid TCP client which setup the ODIN-W2 module to firstly
 Topology for the testing:
 
 -|-|-|-|-|-|-
-----------|------------------|-----------|---------------|--------------|----------|-----------
-Server Host|<--network link-->|WIFI Router|<--WIFI link-->|ODIN-W2 Module|<--UART-->|Client Host
+------|------------|--|-------------|-------|--------|------
+Server|<-net link->|AP|<-WIFI link->|ODIN-W2|<-UART->|Client
 
 All information needed by this implementation are from public available documents:
 
